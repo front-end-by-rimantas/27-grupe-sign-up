@@ -21,9 +21,14 @@ body {
 
 .left-column {
   width: 40%;
+  height: 500px;
   padding: 40px;
   float: left;
-  background-color: #5c37a8;
+  /* background-color: #5c37a8; */
+  background-color: red;
+  background-image: url(../hill.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-title {
