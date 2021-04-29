@@ -55,14 +55,23 @@ body {
   float: left;
   padding: 60px;
   background-color: #fff;
+  position: relative;
 }
 
 .close {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .form {
   display: inline-block;
   width: 100%;
+  background-color: yellow;
 }
 
 .form-row {
@@ -86,4 +95,5 @@ input {
   display: inline-block;
   width: 100%;
   font-size: 20px;
+  background-color: yellow;
 }
